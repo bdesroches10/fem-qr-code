@@ -1,0 +1,50 @@
+/* Colours
+- White: hsl(0, 0%, 100%) (content background)
+- Light gray: hsl(212, 45%, 89%) (page background)
+- Grayish blue: hsl(220, 15%, 55%) (secondary text)
+- Dark blue: hsl(218, 44%, 22%) (primary text)
+*/
+
+h1, p{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    width: 275px;
+    padding: 0 10px;
+}
+
+h1{
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+html{
+    background-color: hsl(212, 45%, 89%);
+    height: 969px;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contents{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.qr-img, .contents{
+    border-radius: 3%;
+    margin: auto;
+}
